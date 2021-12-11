@@ -1,0 +1,36 @@
+/* Add Style to the React app */
+.container {
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.gallery {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: auto auto auto;
+  }
+
+.photos {
+  margin-top: 20px;
+  border-radius: 10px;
+  }
+  
+  .search {
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px;
+  }
+
+  button {
+    border-radius: 10px;
+    color: #0F1621;
+    background-color: whitesmoke;
+    font-size: medium;
+    margin-left: 20px;
+    padding: 4px;
+  }
+
+ 
